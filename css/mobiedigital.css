@@ -1,0 +1,53 @@
+@media only screen and (min-width: 576px) and (max-width: 768px){
+    
+    .project {
+        line-height: 1.8;
+    }
+    .icon-center {
+        text-align: center;
+    }
+
+    .tittle {
+        margin-top: 20px;
+    }
+
+    .tittle .me-5 .goal-tittle {
+        text-align: left;
+    }
+    .tittle h2 {
+        text-align: left;
+    }
+    /* Scopes */
+    .out {
+        margin-left: 0;
+    }
+    /* goal */
+    .goal-item .bi {
+        font-size: 45px;
+    }
+
+    /* sửa lại chiều nằng dọc phù hợp với màn hình */
+    .goal-item,
+    .team-item,
+    .primary-item,
+    .scopes-item,
+    .timeline-item {
+    display: block;
+}
+    .scopes-tittle {
+        display: block;
+    }
+
+/* timeline */
+    .timeline-list {
+        text-align: left;
+        padding-left: 25px;
+    }
+    .timeline-item {
+        margin-top: 50px;
+    }
+
+    .timeline-item h2 {
+        margin-top: 20px;
+    }
+}

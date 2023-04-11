@@ -1,0 +1,94 @@
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    
+    section > .container{
+        width: auto;
+    }
+
+    /* Navbar */
+    .nav-avatar {
+        display: none;
+    }
+    .div-nav {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 65px;
+        text-align: center;
+    }
+    
+    /* About */
+    .info {
+        padding: 0;
+    }
+
+    /* Jobs */
+    .job-me {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 30px;
+        row-gap: 60px;
+    }
+    .hobby-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+   
+    .ic-megaphone,
+    .ic-strategy,
+    .ic-hotairballoon,
+    .ic-basket {
+    border: 1px solid #4b91ca;
+    border-radius: 50%;
+    padding: 10px;
+    color: #2481cc;
+    margin-bottom: 15px;
+    }
+ 
+    /* certificate */
+    .certificate-item img {
+        width: 250px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .certificate--content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .certificate--content section {
+        margin-top: 10px;
+    }
+    .certificate--content section h1 {
+        font-weight: 700;
+    }
+    .img-2 {
+        border-left: 1px solid #d6c08d;
+        padding-left: 10px;
+    }
+
+    /* project */
+    .project-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+    }
+    .project_me {
+        display: flex;
+        align-items: center;
+        text-transform: none;
+        padding: 5px 0;
+        border: 1px solid #9e9898cb;
+    }
+    .project-list h1 {
+        border: none;
+    }
+
+    /* footer */
+    .icon-facebook-circled,
+    .icon-linkedin-circled,
+    .icon-github-circled {
+    font-size: 120%;
+    margin-right: 4px;
+}
+}

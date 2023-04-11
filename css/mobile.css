@@ -1,0 +1,107 @@
+@media only screen and (max-width: 600px) {
+    
+    section > .container{
+        width: auto;
+    }
+
+    /* Navbar */
+    .nav-avatar {
+        display: none;
+    }
+    .div-nav {
+        position: relative;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .information,
+    .history,
+    .certificate,
+    .project {
+        display: flex;
+        justify-content: start;    
+        padding: 5px;
+    }
+
+    /* About */
+    #target {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .info {
+        padding: 0;
+    }
+
+     /* Jobs */
+     .job-me {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .hobby-item {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+    }
+   
+    .ic-megaphone,
+    .ic-strategy,
+    .ic-hotairballoon,
+    .ic-basket {
+    border: 1px solid #4b91ca;
+    border-radius: 50%;
+    padding: 10px;
+    color: #2481cc;
+    margin-bottom: 15px;
+    }
+
+     /* certificate */
+     
+     .certificate-item img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+    .certificate-item {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .certificate--content {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .certificate--content section {
+        margin-top: 10px;
+    }
+    .certificate--content section h1 {
+        font-weight: 700;
+    }
+    .img-2 {
+        border-left: 1px solid #d6c08d;
+        padding-left: 10px;
+    }
+
+    /* project */
+    .project-list {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .project_me {
+        padding: 5px 5px;
+    }
+    .project-item {
+        margin-top: 30px;
+        border-bottom: 1px solid #9cd68d;
+        padding-bottom: 30px;
+    }
+
+     /* footer */
+     .icon-facebook-circled,
+     .icon-linkedin-circled,
+     .icon-github-circled {
+         font-size: 120%;
+         margin-right: 4px;
+     }
+}

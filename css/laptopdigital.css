@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+li {
+    list-style: none;
+   
+}
+ul {
+    padding: 0;
+}
+
+.project {
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+/* chỉnh sửa chiều nằm ngang của item */
+.goal-item,
+.team-item,
+.primary-item,
+.scopes-item,
+.timeline-item {
+    display: flex;
+}
+
+.tittle h1 {
+    border-bottom: 1px solid #bebbbbe8;
+    color: blue;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.tittle {
+    padding: 20px;
+    box-shadow: 3px 3px 5px #00000096;
+}
+
+.goal-list li {
+    border-bottom: 1px solid #ccccccd2;
+}
+.scopes-tittle {
+    display: flex;
+}
+
+
+.out {
+    margin-left: 3rem;
+}
+
+.timeline-list {
+    padding-bottom: 36px;
+}
+.timeline-list li {
+    padding: 2px 0;
+}
+/* tạo đường nét đứt bằng dashed cho timeline */
+.timeline-item {
+    border-bottom: 1px dashed #5ba8cc;
+}
+.timeline-item span {
+    margin-top: 30px;
+}
+
+.timeline-list .number {
+    padding: 15px 20px;
+    font-size: 2rem;
+    color: white;
+    background-color: rgb(159, 103, 223);
+    border-radius: 50%;
+    border: 1px solid #00000077;
+}
+
+.bi {
+    font-size: 30px;
+}
